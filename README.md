@@ -1,3 +1,5 @@
+Q1
+
 #include<stdio.h>  
  int main()    
 {    
@@ -11,6 +13,7 @@ return 0;
 }   
  
 
+Q2
 
 #include<stdio.h>
 int main()
@@ -33,6 +36,8 @@ break;
 }
 
 
+
+Q3
 
 
 include <stdio.h>
