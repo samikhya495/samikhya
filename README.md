@@ -60,6 +60,7 @@ return 0;
  
 Q4
 
+
 #include <stdio.h>
  
 int sum (int a);
@@ -83,6 +84,6 @@ int sum (int num)
     }
     else
     {
-       return 0;
-    }
+ return 0;
+ }
 }
