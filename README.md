@@ -154,3 +154,61 @@ common++;
 lcm(a, b);
 return common;
 }
+
+
+Q7
+
+#include <stdio.h>
+#include <stdlib.h>
+ 
+typedef struct{
+ 
+    char name[10];
+    int age;
+    int salary;
+    int phone number;
+ 
+} Employee;
+ 
+int main()
+{
+    int i, n=3;
+ 
+    Employee employees[n];
+    printf("Enter %d Employee Details \n \n",n);
+    for(i=0; i<n; i++)
+{
+        printf("Name: ");
+        scanf("%s",employees[i].name);
+        printf("Age: ");
+        scanf("%d",&employees[i].age);
+        printf("Salary: ");
+        scanf("%d",&employees[i].salary);
+        printf("Phone number: ");
+        scanf("%d",&employees[i].phone number);
+ 
+        printf("\n");
+    }
+ 
+    printf("All Employees Details\n");
+ 
+    for(i=0; i<n; i++)
+{
+ 
+        printf("Name \t: ");
+        printf("%s \n",employees[i].name);
+ 
+        printf("Age \t: ");
+        printf("%d \n",employees[i].Age);
+ 
+        printf("Salary \t: ");
+        printf("%d \n",employees[i].Salary);
+        
+        printf("%d \t: ");
+        printf("%d \n",employees[i].Phone number);
+ 
+        printf("\n");
+    }
+ 
+    return 0;
+}
